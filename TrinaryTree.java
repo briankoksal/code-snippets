@@ -1,5 +1,4 @@
 public class TrinaryTree {
-	
 	/*  
 	 *  Method to insert new value into tree structure
 	 */

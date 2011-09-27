@@ -1,7 +1,10 @@
+/*  
+ *  Java Trinary-Tree
+ */
+
 public class TrinaryTree {
-	/*  
-	 *  Method to insert new value into tree structure
-	 */
+	
+	/*  Method to insert new value into tree structure*/
 	public void Insert(Node node, int value){
 
 		if (node.value == value){  //middle
@@ -27,9 +30,7 @@ public class TrinaryTree {
 		}
 	}
 	
-	/*  
-	 *  Delete helper function to handle special case where root node is to be deleted
-	 */
+	/* Delete helper function to handle special case where root node is to be deleted */
 	public boolean Delete(Node root, int val){
 		
 		if (root == null){
@@ -69,9 +70,7 @@ public class TrinaryTree {
 	        }
         }
 		
-		/*  
-		 *  Method searches subtree for node to be removed and restructures children Nodes accordingly.  
-		 */
+		/*  Method searches subtree for node to be removed and restructures children Nodes accordingly.  */
 	    public boolean Delete(Node parent, int value){
 			
 			if (value < this.value){ 

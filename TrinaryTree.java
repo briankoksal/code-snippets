@@ -1,6 +1,4 @@
-/*  
- *  Java Trinary-Tree
- */
+/* Java Trinary-Tree */
 
 public class TrinaryTree {
 	
